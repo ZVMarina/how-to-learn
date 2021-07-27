@@ -174,6 +174,45 @@
   font-weight: normal;
 }
 
+/** feynman */
+.feynman {
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  min-height: 890px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.feynman__titile {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+  margin: 0 auto 70px;
+  width: 648px;
+  text-align: center;
+}
+
+.feynman__subtitile {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  position: absolute;
+  top: 445px;
+  right: 0;
+}
+
+
+
 /** kaufman */
 .table__cell_theme_dark {
   width: 200px;
@@ -181,7 +220,3 @@
   margin-right: 0;
   margin-top: 80px;
 }
-
-
-
-/** feynman */
