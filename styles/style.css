@@ -209,8 +209,8 @@
   position: absolute;
   top: 445px;
   right: 0;
+  text-decoration: none;
 }
-
 
 
 /** kaufman */
@@ -241,4 +241,68 @@
   height: 877px;
   right: -210px;
   top: 0;
+}
+
+
+/** footer */
+.footer {
+  background-color: black;
+  padding-bottom: 40px;
+  display: flex;
+  min-height: 350px;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  color: white;
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  color: white;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-links:last-of-type {
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
 }
