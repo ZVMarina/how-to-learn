@@ -217,7 +217,7 @@
 /** kaufman */
 .kaufman {
   padding: 90px 0 150px;
-  background-color: black;
+  background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -251,7 +251,7 @@
 /** footer */
 .footer {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   padding-bottom: 40px;
   display: flex;
   min-height: 350px;
