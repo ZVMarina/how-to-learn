@@ -3,6 +3,23 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-  width: 175px;
   margin: 0;
+}
+
+@media all and (max-width: 1279px) {
+  .two-columns__brief {
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .two-columns__brief {
+    align-self: flex-start;
+  }
+}
+
+@media all and (max-width: 424px) {
+  .two-columns__brief {
+    font-size: 14px;
+  }
 }
