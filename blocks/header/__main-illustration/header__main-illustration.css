@@ -2,7 +2,27 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 765px;
-  height: 608px;
+  max-width: 765px;
+  max-height: 608px;
   z-index: 1;
+}
+
+@media all and (max-width: 1279px) {
+  .header__main-illustration {
+    width: 705px;
+    height: 558px;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  .header__main-illustration {
+    width: 655px;
+    height: 508px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .header__main-illustration {
+    display: none;
+  }
 }

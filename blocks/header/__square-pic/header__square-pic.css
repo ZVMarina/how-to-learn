@@ -6,3 +6,30 @@
   width: 568px;
   background-color: #2f80ed;
 }
+
+@media all and (max-width: 1279px) {
+  .header__square-pic {
+    width: 524px;
+    height: 524px;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  .header__square-pic {
+    width: 483px;
+    height: 483px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .header__square-pic {
+    top: 20%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header__square-pic {
+    display: none;
+  }
+}
+

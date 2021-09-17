@@ -4,3 +4,9 @@
   left: 64px;
   z-index: 2;
 }
+
+@media all and (max-width: 424px) {
+  .logo_place_header {
+    left: 24px;
+  }
+}

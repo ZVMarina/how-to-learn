@@ -1,5 +1,4 @@
 .header {
-  height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
@@ -8,4 +7,11 @@
   align-items: center;
   margin-bottom: 100px;
   overflow: hidden;
+}
+
+@media all and (max-width: 424px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

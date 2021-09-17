@@ -4,8 +4,42 @@
   left: 64px;
   z-index: 2;
   max-width: 388px;
-  line-height: 25px;
+  line-height: 1.4;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+}
+
+@media all and (max-width: 1279px) {
+  .header__subtitle {
+    font-size: 16px;
+    max-width: 335px;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  .header__subtitle {
+    font-size: 14px;
+    max-width: 260px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .header__subtitle {
+    font-size: 18px;
+    max-width: 388px;
+  }
+}
+
+@media all and (max-width: 660px) {
+  .header__subtitle {
+    font-size: 14px;
+    max-width: 260px;
+  }
+}
+
+@media all and (max-width: 424px) {
+  .header__subtitle {
+    left: 34px;
+  }
 }
