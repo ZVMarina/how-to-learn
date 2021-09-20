@@ -1,4 +1,4 @@
-.feynman {
+/* .feynman {
   background-color: #f2f2f2;
   background-image: url(../../images/feynman/feynman.png);
   background-repeat: no-repeat;
@@ -8,4 +8,64 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
+} */
+
+.feynman {
+  background-color: #f2f2f2;
+  background-image: url(../../images/feynman/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  min-height: 890px;
+  margin-bottom: 100px;
+  display: grid;
+  row-gap: 70px;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, minmax(100px, max-content));
+  grid-template-areas:
+    ". title ."
+    ". subtitle link";
+}
+
+@media all and (max-width: 1380px) {
+  .feynman {
+    background-size: 767px 537px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .feynman {
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-bottom: 50px;
+    row-gap: 40px;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-template-areas:
+    "title title"
+    "subtitle link";
+  }
+}
+
+@media all and (max-width: 767px) {
+  .feynman {
+    min-height: 100%;
+    background-image: none;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-template-areas:
+    "title . ."
+    ". subtitle ."
+    ". . link";
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media all and (max-width: 585px) {
+  .feynman {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 30px;
+  }
 }

@@ -1,4 +1,4 @@
-.feynman__link {
+/* .feynman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -8,8 +8,46 @@
   right: 48px;
   text-decoration: none;
   transition: opacity .3s ease;
+} */
+
+.feynman__link {
+  line-height: 1.4;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  transition: opacity .3s ease;
+  grid-area: link;
+  justify-self: flex-end;
+  margin-right: 48px;
 }
 
 .feynman__link:hover {
   opacity: .8;
 }
+
+@media all and (max-width: 1279px) {
+  .feynman__link {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .feynman__link {
+    margin-right: 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .feynman__link {
+    margin: auto;
+    font-size: 24px;
+  }
+}
+
+/* @media all and (max-width: 585px) {
+  .feynman__link {
+    margin: auto;
+    font-size: 20px;
+  }
+} */

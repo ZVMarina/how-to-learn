@@ -8,9 +8,3 @@
     padding-top: 120px;
   }
 }
-
-@media all and (max-width: 767px) {
-  .oakley {
-    padding-top: 90px;
-  }
-}
