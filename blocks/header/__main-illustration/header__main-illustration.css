@@ -1,27 +1,14 @@
 .header__main-illustration {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  max-width: 765px;
+  grid-area: image;
+  width: 100%;
   max-height: 608px;
-  z-index: 1;
+  max-width: 765px;
+  align-self: flex-end;
+  z-index: 2;
+  position: relative;
 }
 
-@media all and (max-width: 1279px) {
-  .header__main-illustration {
-    width: 705px;
-    height: 558px;
-  }
-}
-
-@media all and (max-width: 1099px) {
-  .header__main-illustration {
-    width: 655px;
-    height: 508px;
-  }
-}
-
-@media all and (max-width: 1023px) {
+@media all and (max-width: 585px) {
   .header__main-illustration {
     display: none;
   }

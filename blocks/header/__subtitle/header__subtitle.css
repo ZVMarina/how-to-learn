@@ -1,13 +1,13 @@
 .header__subtitle {
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  z-index: 2;
   max-width: 388px;
   line-height: 1.4;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  margin-bottom: 30px;
+  grid-area: subtitle;
+  align-self: end;
+  z-index: 3;
 }
 
 @media all and (max-width: 1279px) {
@@ -17,29 +17,31 @@
   }
 }
 
-@media all and (max-width: 1099px) {
-  .header__subtitle {
-    font-size: 14px;
-    max-width: 260px;
-  }
-}
-
 @media all and (max-width: 1023px) {
   .header__subtitle {
-    font-size: 18px;
-    max-width: 388px;
-  }
-}
-
-@media all and (max-width: 660px) {
-  .header__subtitle {
     font-size: 14px;
     max-width: 260px;
   }
 }
 
-@media all and (max-width: 424px) {
+@media all and (max-width: 767px) {
   .header__subtitle {
-    left: 34px;
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 630px) {
+  .header__subtitle {
+    font-size: 12px;
+    max-width: 230px;
+  }
+}
+
+@media all and (max-width: 585px) {
+  .header__subtitle {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 }

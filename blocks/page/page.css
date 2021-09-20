@@ -1,6 +1,7 @@
 .page {
   max-width: 1600px;
-  margin: 0 auto;
+  min-width: 320px;
+  margin: auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
   min-height: 100vh;
 }
