@@ -1,7 +1,28 @@
 .khan__quote {
-  line-height: 34px;
+  line-height: 1.4;
   font-size: 24px;
   font-weight: normal;
-  margin: 0 0 36px;
+  margin: 0;
+  margin-bottom: 36px;
   max-width: 790px;
+}
+
+@media all and (max-width: 767px) {
+  .khan__quote {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 585px) {
+  .khan__quote {
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .khan__quote {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
 }
