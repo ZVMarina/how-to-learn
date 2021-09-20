@@ -5,3 +5,15 @@
   overflow: hidden;
   z-index: 1;
 }
+
+@media all and (max-width: 1023px) {
+  .kaufman {
+    padding-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 585px) {
+  .kaufman {
+    padding-bottom: 30px;
+  }
+}
