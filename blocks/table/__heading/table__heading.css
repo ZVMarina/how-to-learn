@@ -3,4 +3,24 @@
   font-size: 24px;
   font-weight: 700;
   margin: 0;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .table__heading {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 615px) {
+  .table__heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 475px) {
+  .table__heading {
+    font-size: 18px;
+  }
 }
