@@ -1,9 +1,26 @@
 .section-title {
   margin: auto;
   margin-bottom: 20px;
-  width: 60%;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
+}
+
+@media all and (max-width: 767px) {
+  .section-title {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 585px) {
+  .section-title {
+    font-size: 40px;
+  }
+}
+
+@media all and (max-width: 475px) {
+  .section-title {
+    font-size: 28px;
+  }
 }

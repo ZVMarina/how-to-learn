@@ -2,6 +2,19 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
-  margin: 43px 0 0;
+  margin: 0;
+  margin-bottom: 16px;
   text-align: center;
+}
+
+@media all and (max-width: 767px) {
+  .cards__title {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 585px) {
+  .cards__title {
+    font-size: 18px;
+  }
 }
