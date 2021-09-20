@@ -1,9 +1,17 @@
 .video__iframe {
   width: 516px;
-  height: 316px;
+  min-height: 316px;
   border: 0;
 }
 
-.video__iframe:first-of-type {
-  margin-right: 20px;
+@media all and (max-width: 767px) {
+  .video__iframe {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 475px) {
+  .video__iframe {
+    min-height: 200px;
+  }
 }
