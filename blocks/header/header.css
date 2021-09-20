@@ -30,7 +30,7 @@
 @media all and (max-width: 585px) {
   .header {
     padding-right: 32px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     grid-template-columns: minmax(min-content, max-content);
     justify-content: center;
   }

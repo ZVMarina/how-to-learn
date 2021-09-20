@@ -1,8 +1,19 @@
 .section-subtitle {
   margin: auto;
-  width: 60%;
   text-align: center;
-  line-height: 34px;
+  line-height: 1.4;
   font-size: 24px;
   font-weight: normal;
+}
+
+@media all and (max-width: 767px) {
+  .section-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 585px) {
+  .section-subtitle {
+    font-size: 18px;
+  }
 }
