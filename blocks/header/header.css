@@ -1,24 +1,30 @@
 .header {
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  position: relative;
-  display: flex;
-  align-items: center;
+  padding-left: 64px;
+  padding-top: 30px;
   margin-bottom: 100px;
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  grid-template-rows: repeat(3, minmax(100px, max-content));
+  grid-template-areas:
+    "logo image"
+    "title image"
+    "subtitle image";
+  justify-content: space-between;
   overflow: hidden;
+  position: relative;
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 767px) {
   .header {
-    margin-bottom: 64px;
+    padding-left: 32px;
   }
 }
 
-@media all and (max-width: 424px) {
+@media all and (max-width: 585px) {
   .header {
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-bottom: 30px;
+    padding-right: 32px;
+    grid-template-columns: minmax(min-content, max-content);
+    justify-content: center;
   }
 }

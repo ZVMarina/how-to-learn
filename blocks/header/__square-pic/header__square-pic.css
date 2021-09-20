@@ -1,7 +1,7 @@
 .header__square-pic {
   position: absolute;
   right: 0;
-  top: 64px;
+  top: 30px;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -9,21 +9,15 @@
 
 @media all and (max-width: 1279px) {
   .header__square-pic {
-    width: 524px;
-    height: 524px;
-  }
-}
-
-@media all and (max-width: 1099px) {
-  .header__square-pic {
-    width: 483px;
-    height: 483px;
+    width: 440px;
+    height: 440px;
   }
 }
 
 @media all and (max-width: 1023px) {
   .header__square-pic {
-    top: 20%;
+    width: 310px;
+    height: 310px;
   }
 }
 
@@ -32,4 +26,3 @@
     display: none;
   }
 }
-
