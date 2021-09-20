@@ -8,3 +8,9 @@
   top: 0;
   z-index: -1;
 }
+
+@media all and (max-width: 767px) {
+  .kaufman__triangle {
+    display: none;
+  }
+}
