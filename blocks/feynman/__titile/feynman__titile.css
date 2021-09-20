@@ -1,8 +1,38 @@
+/* .feynman__titile {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+  margin: 0 auto 70px;
+  max-width: 648px;
+  text-align: center;
+} */
+
 .feynman__titile {
   line-height: 1.15;
   font-size: 120px;
   font-weight: 700;
-  margin: 100px auto 70px;
-  width: 648px;
+  margin: 100px auto 0;
+  max-width: 648px;
   text-align: center;
+  grid-area: title;
+}
+
+@media all and (max-width: 1279px) {
+  .feynman__titile {
+    font-size: 80px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .feynman__titile {
+    margin-top: 50px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .feynman__titile {
+    max-width: 300px;
+    margin-top: 50px;
+    font-size: 42px;
+  }
 }
