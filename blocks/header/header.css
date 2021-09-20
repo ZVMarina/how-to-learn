@@ -15,6 +15,12 @@
   position: relative;
 }
 
+@media all and (max-width: 1023px) {
+  .header {
+    margin-bottom: 50px;
+  }
+}
+
 @media all and (max-width: 767px) {
   .header {
     padding-left: 32px;
@@ -24,6 +30,7 @@
 @media all and (max-width: 585px) {
   .header {
     padding-right: 32px;
+    margin-bottom: 25px;
     grid-template-columns: minmax(min-content, max-content);
     justify-content: center;
   }
