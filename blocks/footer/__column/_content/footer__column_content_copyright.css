@@ -2,3 +2,15 @@
   flex-basis: 711px;
   justify-content: space-between;
 }
+
+@media all and (max-width: 767px) {
+  .footer__column_content_copyright {
+    grid-area: copyright;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .footer__column_content_copyright {
+    align-self: flex-end;
+  }
+}

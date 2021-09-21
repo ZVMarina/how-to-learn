@@ -2,7 +2,6 @@
   margin-top: 68px;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  justify-items: stretch;
   gap: 48px;
 }
 

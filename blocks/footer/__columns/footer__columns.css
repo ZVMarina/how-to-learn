@@ -4,3 +4,46 @@
   margin: 0 auto;
   justify-content: space-between;
 }
+
+@media all and (max-width: 1279px) {
+  .footer__columns {
+    gap: 100px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .footer__columns {
+    gap: 80px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__columns {
+    width: 100%;
+    gap: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(100px, 1fr));
+    grid-template-areas:
+    "copyright info "
+    "copyright social";
+  }
+}
+
+@media all and (max-width: 425px) {
+  .footer__columns {
+    grid-template-areas:
+    "info social"
+    /* "social" */
+    "copyright copyright";
+  }
+}
+
+@media all and (max-width: 374px) {
+  .footer__columns {
+    grid-template-areas:
+    "info"
+    "social"
+    "copyright";
+  }
+}
