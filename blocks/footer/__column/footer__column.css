@@ -1,5 +1,5 @@
 .footer__column {
   display: flex;
   flex-direction: column;
-  min-width: 126px;
+  min-width: 127px;
 }
